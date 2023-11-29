@@ -1,0 +1,43 @@
+*
+.cards{
+    padding: 20px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cardLight{
+    overflow: hidden;
+   border-radius: 10px;
+    background-color: white;
+    margin:  10px 0;
+    border: 1px solid rgb(229, 227, 227);
+}
+.cardDark{
+    overflow: hidden;
+    border-radius: 10px;
+     background-color: black;
+     margin:  10px 0;
+     border: 1px solid rgb(229, 227, 227);
+}
+.cardDark img{
+    height: 200px;
+    width: 300px;
+}
+.cardLight img{
+    height: 200px;
+    width: 300px;
+}
+.cardDark p,h3,a{
+    margin: 10px;
+}
+.cardLight p,h3,a{
+    margin: 10px;
+}
+.cardLight a{
+    text-decoration: none;
+    color: black;
+}
+.cardDark a{
+    text-decoration: none;
+    color: white;
+}
